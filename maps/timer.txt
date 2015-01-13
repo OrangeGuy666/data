@@ -1,0 +1,10 @@
+-- WORKS! DO NOT EDIT!
+function map:on_started()
+local num_calls = 0
+sol.timer.start(game, 1000, function()
+sol.audio.play_sound("timer")
+num_calls = num_calls + 1
+return true
+end)
+end
+-- WORKS! DO NOT EDIT!

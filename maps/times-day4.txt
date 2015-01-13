@@ -1,0 +1,864 @@
+	elseif num_calls == 3600000 -- day4_Dawn_6:00AM -- 3600000
+		then function map:on_draw(dst_surface)
+					self.day4_dawn_overlay:draw(dst_surface)
+					game:set_value("time", day4_0600)
+						return true
+							end
+	elseif num_calls == 3608333 -- day4_Dawn_6:10AM -- 3608333.333333333333
+		then function map:on_draw(dst_surface)
+					self.day4_dawn_overlay:draw(dst_surface)
+					game:set_value("time", day4_0610)
+						return true
+							end
+	elseif num_calls == 3616666 -- day4_Dawn_6:20AM -- 3616666.66666666666
+		then function map:on_draw(dst_surface)
+					self.day4_dawn_overlay:draw(dst_surface)
+					game:set_value("time", day4_0620)
+						return true
+							end
+	elseif num_calls == 3625000 -- day4_Dawn_6:30AM -- 3625000
+		then function map:on_draw(dst_surface)
+					self.day4_dawn_overlay:draw(dst_surface)
+					game:set_value("time", day4_0630)
+						return true
+							end
+	elseif num_calls == 3633333 -- day4_Dawn_6:40AM -- 3633333.33333333333
+		then function map:on_draw(dst_surface)
+					self.day4_dawn_overlay:draw(dst_surface)
+					game:set_value("time", day4_0640)
+						return true
+							end
+	elseif num_calls == 3641666 -- day4_Dawn_6:50AM -- 3641666.66666666666
+		then function map:on_draw(dst_surface)
+					self.day4_dawn_overlay:draw(dst_surface)
+					game:set_value("time", day4_0650)
+						return true
+							end
+	elseif num_calls == 3650000 -- day4_Dawn_7:00AM -- 3650000
+		then function map:on_draw(dst_surface)
+					self.day4_dawn_overlay:draw(dst_surface)
+					game:set_value("time", day4_0700)
+						return true
+							end
+	elseif num_calls == 3658333 -- day4_Dawn_7:10AM -- 3658333.33333333333
+		then function map:on_draw(dst_surface)
+					self.day4_dawn_overlay:draw(dst_surface)
+					game:set_value("time", day4_0710)
+						return true
+							end
+	elseif num_calls == 3666666 -- day4_Dawn_7:20AM -- 3666666.66666666666
+		then function map:on_draw(dst_surface)
+					self.day4_dawn_overlay:draw(dst_surface)
+					game:set_value("time", day4_0720)
+						return true
+							end
+	elseif num_calls == 3675000 -- day4_Dawn_7:30AM -- 3675000
+		then function map:on_draw(dst_surface)
+					self.day4_dawn_overlay:draw(dst_surface)
+					game:set_value("time", day4_0730)
+						return true
+							end
+	elseif num_calls == 3683333 -- day4_Dawn_7:40AM -- 3683333.33333333333
+		then function map:on_draw(dst_surface)
+					self.day4_dawn_overlay:draw(dst_surface)
+					game:set_value("time", day4_0740)
+						return true
+							end
+	elseif num_calls == 3691666 -- day4_Dawn_7:50AM -- 3691666.66666666666
+		then function map:on_draw(dst_surface)
+					self.day4_dawn_overlay:draw(dst_surface)
+					game:set_value("time", day4_0750)
+						return true
+							end
+	elseif num_calls == 3700000 -- day4_Day_8:00AM -- 3700000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_0800)
+						return true
+							end
+	elseif num_calls == 3708333 -- day4_Day_8:10AM -- 3708333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_0810)
+						return true
+							end
+	elseif num_calls == 3716666 -- day4_Day_8:20AM -- 3716666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_0820)
+						return true
+							end
+	elseif num_calls == 3725000 -- day4_Day_8:30AM -- 3725000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_0830)
+						return true
+							end
+	elseif num_calls == 3733333 -- day4_Day_8:40AM -- 3733333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_0840)
+						return true
+							end
+	elseif num_calls == 3741666 -- day4_Day_8:50AM -- 3741666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_0850)
+						return true
+							end
+	elseif num_calls == 3750000 -- day4_Day_9:00AM -- 3750000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_0900)
+						return true
+							end
+	elseif num_calls == 3758333 -- day4_Day_9:10AM -- 3758333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_0910)
+						return true
+							end
+	elseif num_calls == 3766666 -- day4_Day_9:20AM -- 3766666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_0920)
+						return true
+							end
+	elseif num_calls == 3775000 -- day4_Day_9:30AM -- 3775000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_0930)
+						return true
+							end
+	elseif num_calls == 3783333 -- day4_Day_9:40AM -- 3783333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_0940)
+						return true
+							end
+	elseif num_calls == 3791666 -- day4_Day_9:50AM -- 3791666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_0950)
+						return true
+							end
+	elseif num_calls == 3800000 -- day4_Day_10:00AM -- 3800000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1000)
+						return true
+							end
+	elseif num_calls == 3808333 -- day4_Day_10:10AM -- 3808333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1010)
+						return true
+							end
+	elseif num_calls == 3816666 -- day4_Day_10:20AM -- 3816666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1020)
+						return true
+							end
+	elseif num_calls == 3825000 -- day4_Day_10:30AM -- 3825000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1030)
+						return true
+							end
+	elseif num_calls == 3833333 -- day4_Day_10:40AM -- 3833333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1040)
+						return true
+							end
+	elseif num_calls == 3841666 -- day4_Day_10:50AM -- 3841666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1050)
+						return true
+							end
+	elseif num_calls == 3850000 -- day4_Day_11:00AM -- 3850000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1100)
+						return true
+							end
+	elseif num_calls == 3858333 -- day4_Day_11:10AM -- 3858333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1110)
+						return true
+							end
+	elseif num_calls == 3866666 -- day4_Day_11:20AM -- 3866666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1120)
+						return true
+							end
+	elseif num_calls == 3875000 -- day4_Day_11:30AM -- 3875000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1130)
+						return true
+							end
+	elseif num_calls == 3883333 -- day4_Day_11:40AM -- 3883333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1140)
+						return true
+							end
+	elseif num_calls == 3891666 -- day4_Day_11:50AM -- 3891666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1150)
+						return true
+							end
+	elseif num_calls == 3900000 -- day4_Day_12:00PM -- 3900000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1200)
+						return true
+							end
+	elseif num_calls == 3908333 -- day4_Day_12:10PM -- 3908333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1210)
+						return true
+							end
+	elseif num_calls == 3916666 -- day4_Day_12:20PM -- 3916666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1220)
+						return true
+							end
+	elseif num_calls == 3925000 -- day4_Day_12:30PM -- 3925000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1230)
+						return true
+							end
+	elseif num_calls == 3933333 -- day4_Day_12:40PM -- 3933333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1240)
+						return true
+							end
+	elseif num_calls == 3941666 -- day4_Day_12:50PM -- 3941666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1250)
+						return true
+							end
+	elseif num_calls == 3950000 -- day4_Day_1:00PM -- 3950000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1300)
+						return true
+							end
+	elseif num_calls == 3958333 -- day4_Day_1:10PM -- 3958333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1310)
+						return true
+							end
+	elseif num_calls == 3966666 -- day4_Day_1:20PM -- 3966666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1320)
+						return true
+							end
+	elseif num_calls == 3975000 -- day4_Day_1:30PM -- 3975000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1330)
+						return true
+							end
+	elseif num_calls == 3983333 -- day4_Day_1:40PM -- 3983333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1340)
+						return true
+							end
+	elseif num_calls == 3991666 -- day4_Day_1:50PM -- 3991666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1350)
+						return true
+							end
+	elseif num_calls == 4000000 -- day4_Day_2:00PM -- 4000000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1400)
+						return true
+							end
+	elseif num_calls == 4008333 -- day4_Day_2:10PM -- 4008333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1410)
+						return true
+							end
+	elseif num_calls == 4016666 -- day4_Day_2:20PM -- 4016666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1420)
+						return true
+							end
+	elseif num_calls == 4025000 -- day4_Day_2:30PM -- 4025000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1430)
+						return true
+							end
+	elseif num_calls == 4033333 -- day4_Day_2:40PM -- 4033333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1440)
+						return true
+							end
+	elseif num_calls == 4041666 -- day4_Day_2:50PM -- 4041666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1450)
+						return true
+							end
+	elseif num_calls == 4050000 -- day4_Day_3:00PM -- 4050000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1500)
+						return true
+							end
+	elseif num_calls == 4058333 -- day4_Day_3:10PM -- 4058333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1510)
+						return true
+							end
+	elseif num_calls == 4066666 -- day4_Day_3:20PM -- 4066666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1520)
+						return true
+							end
+	elseif num_calls == 4075000 -- day4_Day_3:30PM -- 4075000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1530)
+						return true
+							end
+	elseif num_calls == 4083333 -- day4_Day_3:40PM -- 4083333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1540)
+						return true
+							end
+	elseif num_calls == 4091666 -- day4_Day_3:50PM -- 4091666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1550)
+						return true
+							end
+	elseif num_calls == 4100000 -- day4_Day_4:00PM -- 4100000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1600)
+						return true
+							end
+	elseif num_calls == 4108333 -- day4_Day_4:10PM -- 4108333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1610)
+						return true
+							end
+	elseif num_calls == 4116666 -- day4_Day_4:20PM -- 4116666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1620)
+						return true
+							end
+	elseif num_calls == 4125000 -- day4_Day_4:30PM -- 4125000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1630)
+						return true
+							end
+	elseif num_calls == 4133333 -- day4_Day_4:40PM -- 4133333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1640)
+						return true
+							end
+	elseif num_calls == 4141666 -- day4_Day_4:50PM -- 4141666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1650)
+						return true
+							end
+	elseif num_calls == 4150000 -- day4_Day_5:00PM -- 4150000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1700)
+						return true
+							end
+	elseif num_calls == 4158333 -- day4_Day_5:10PM -- 4158333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1710)
+						return true
+							end
+	elseif num_calls == 4166666 -- day4_Day_5:20PM -- 4166666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1720)
+						return true
+							end
+	elseif num_calls == 4175000 -- day4_Day_5:30PM -- 4175000
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1730)
+						return true
+							end
+	elseif num_calls == 4183333 -- day4_Day_5:40PM -- 4183333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1740)
+						return true
+							end
+	elseif num_calls == 4191666 -- day4_Day_5:50PM -- 4191666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_day_overlay:draw(dst_surface)
+					game:set_value("time", day4_1750)
+						return true
+							end
+	elseif num_calls == 4200000 -- day4_Dusk_6:00PM -- 4200000
+		then function map:on_draw(dst_surface)
+					self.day4_dusk_overlay:draw(dst_surface)
+					game:set_value("time", day4_1800)
+						return true
+							end
+	elseif num_calls == 4208333 -- day4_Dusk_6:10PM -- 4208333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_dusk_overlay:draw(dst_surface)
+					game:set_value("time", day4_1810)
+						return true
+							end
+	elseif num_calls == 4216666 -- day4_Dusk_6:20PM -- 4216666.66666666666
+		then function map:on_draw(dst_surface)
+					self.day4_Dusk_overlay:draw(dst_surface)
+					game:set_value("time", day4_1820)
+						return true
+							end
+	elseif num_calls == 4225000 -- day4_Dusk_6:30PM -- 4225000
+		then function map:on_draw(dst_surface)
+					self.day4_Dusk_overlay:draw(dst_surface)
+					game:set_value("time", day4_1830)
+						return true
+							end
+	elseif num_calls == 4233333 -- day4_Dusk_6:40PM -- 4233333.33333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Dusk_overlay:draw(dst_surface)
+					game:set_value("time", day4_1840)
+						return true
+							end
+	elseif num_calls == 4241666 -- day4_Dusk_6:50PM -- 4241666.66666666666
+		then function map:on_draw(dst_surface)
+					self.day4_Dusk_overlay:draw(dst_surface)
+					game:set_value("time", day4_1850)
+						return true
+							end
+	elseif num_calls == 4250000 -- day4_Dusk_7:00PM -- 4250000
+		then function map:on_draw(dst_surface)
+					self.day4_Dusk_overlay:draw(dst_surface)
+					game:set_value("time", day4_1900)
+						return true
+							end
+	elseif num_calls == 4258333 -- day4_Dusk_7:10PM -- 4258333.33333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Dusk_overlay:draw(dst_surface)
+					game:set_value("time", day4_1910)
+						return true
+							end
+	elseif num_calls == 4266666 -- day4_Dusk_7:20PM -- 4266666.66666666666
+		then function map:on_draw(dst_surface)
+					self.day4_Dusk_overlay:draw(dst_surface)
+					game:set_value("time", day4_1920)
+						return true
+							end
+	elseif num_calls == 4275000 -- day4_Dusk_7:30PM -- 4275000
+		then function map:on_draw(dst_surface)
+					self.day4_Dusk_overlay:draw(dst_surface)
+					game:set_value("time", day4_1930)
+						return true
+							end
+	elseif num_calls == 4283333 -- day4_Dusk_7:40PM -- 4283333.33333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Dusk_overlay:draw(dst_surface)
+					game:set_value("time", day4_1940)
+						return true
+							end
+	elseif num_calls == 4291666 -- day4_Dusk_7:50PM -- 4291666.66666666666
+		then function map:on_draw(dst_surface)
+					self.day4_Dusk_overlay:draw(dst_surface)
+					game:set_value("time", day4_1950)
+						return true
+							end
+	elseif num_calls == 4300000 -- day4_Night_8:00PM -- 43000000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2000)
+						return true
+							end
+	elseif num_calls == 4308333 -- day4_Night_8:10PM -- 43008333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2010)
+						return true
+							end
+	elseif num_calls == 4316666 -- day4_Night_8:20PM -- 4316666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2020)
+						return true
+							end
+	elseif num_calls == 4325000 -- day4_Night_8:30PM -- 4325000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2030)
+						return true
+							end
+	elseif num_calls == 4333333 -- day4_Night_8:40PM -- 4333333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2040)
+						return true
+							end
+	elseif num_calls == 4341666 -- day4_Night_8:50PM -- 4341666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2050)
+						return true
+							end
+	elseif num_calls == 4350000 -- day4_Night_9:00PM -- 4350000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2100)
+						return true
+							end
+	elseif num_calls == 4358333 -- day4_Night_9:10PM -- 4358333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2110)
+						return true
+							end
+	elseif num_calls == 4366666 -- day4_Night_9:20PM -- 4366666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2120)
+						return true
+							end
+	elseif num_calls == 4375000 -- day4_Night_9:30PM -- 4375000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2130)
+						return true
+							end
+	elseif num_calls == 4383333 -- day4_Night_9:40PM -- 4383333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2140)
+						return true
+							end
+	elseif num_calls == 4391666 -- day4_Night_9:50PM -- 4391666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2150)
+						return true
+							end
+	elseif num_calls == 4400000 -- day4_Night_10:00PM -- 4400000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2200)
+						return true
+							end
+	elseif num_calls == 4408333 -- day4_Night_10:10PM -- 4408333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2210)
+						return true
+							end
+	elseif num_calls == 4416666 -- day4_Night_10:20PM -- 4416666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2220)
+						return true
+							end
+	elseif num_calls == 4425000 -- day4_Night_10:30PM -- 4425000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2230)
+						return true
+							end
+	elseif num_calls == 4433333 -- day4_Night_10:40PM -- 4433333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2240)
+						return true
+							end
+	elseif num_calls == 4441666 -- day4_Night_10:50PM -- 4441666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2250)
+						return true
+							end
+	elseif num_calls == 4450000 -- day4_Night_11:00PM -- 4450000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2300)
+						return true
+							end
+	elseif num_calls == 4458333 -- day4_Night_11:10PM -- 4458333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2310)
+						return true
+							end
+	elseif num_calls == 4466666 -- day4_Night_11:20PM -- 4466666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2320)
+						return true
+							end
+	elseif num_calls == 4475000 -- day4_Night_11:30PM -- 4475000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2330)
+						return true
+							end
+	elseif num_calls == 4483333 -- day4_Night_11:40PM -- 4483333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2340)
+						return true
+							end
+	elseif num_calls == 4491666 -- day4_Night_11:50PM -- 4491666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_2350)
+						return true
+							end
+	elseif num_calls == 4500000 -- day4_Night_12:00AM -- 4500000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0000)
+						return true
+							end
+	elseif num_calls == 4508333 -- day4_Night_12:10AM -- 4508333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0010)
+						return true
+							end
+	elseif num_calls == 4516666 -- day4_Night_12:20AM -- 4516666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0020)
+						return true
+							end
+	elseif num_calls == 4525000 -- day4_Night_12:30AM -- 4525000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0030)
+						return true
+							end
+	elseif num_calls == 4533333 -- day4_Night_12:40AM -- 4533333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0040)
+						return true
+							end
+	elseif num_calls == 4541666 -- day4_Night_12:50AM -- 4541666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0050)
+						return true
+							end
+	elseif num_calls == 4550000 -- day4_Night_1:00AM -- 4550000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0100)
+						return true
+							end
+	elseif num_calls == 4558333 -- day4_Night_1:10AM -- 4558333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0110)
+						return true
+							end
+	elseif num_calls == 4566666 -- day4_Night_1:20AM -- 4566666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0120)
+						return true
+							end
+	elseif num_calls == 4575000 -- day4_Night_1:30AM -- 4575000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0130)
+						return true
+							end
+	elseif num_calls == 4583333 -- day4_Night_1:40AM -- 4583333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0140)
+						return true
+							end
+	elseif num_calls == 4591666 -- day4_Night_1:50AM -- 4591666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0150)
+						return true
+							end
+	elseif num_calls == 4600000 -- day4_Night_2:00AM -- 4600000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0200)
+						return true
+							end
+	elseif num_calls == 4608333 -- day4_Night_2:10AM -- 4608333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0210)
+						return true
+							end
+	elseif num_calls == 4616666 -- day4_Night_2:20AM -- 4616666.6666666667
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0220)
+						return true
+							end
+	elseif num_calls == 4625000 -- day4_Night_2:30AM -- 4625000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0230)
+						return true
+							end
+	elseif num_calls == 4633333 -- day4_Night_2:40AM -- 4633333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0240)
+						return true
+							end
+	elseif num_calls == 4641666 -- day4_Night_2:50AM -- 4641666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0250)
+						return true
+							end
+	elseif num_calls == 4650000 -- day4_Night_3:00AM -- 4650000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0300)
+						return true
+							end
+	elseif num_calls == 4658333 -- day4_Night_3:10AM -- 4658333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0310)
+						return true
+							end
+	elseif num_calls == 4666666 -- day4_Night_3:20AM -- 4666666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0320)
+						return true
+							end
+	elseif num_calls == 4675000 -- day4_Night_3:30AM -- 4675000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0330)
+						return true
+							end
+	elseif num_calls == 4683333 -- day4_Night_3:40AM -- 4683333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0340)
+						return true
+							end
+	elseif num_calls == 4691666 -- day4_Night_3:50AM -- 4691666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0350)
+						return true
+							end
+	elseif num_calls == 4700000 -- day4_Night_4:00AM -- 4700000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0400)
+						return true
+							end
+	elseif num_calls == 4708333 -- day4_Night_4:10AM -- 4708333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0410)
+						return true
+							end
+	elseif num_calls == 4716666 -- day4_Night_4:20AM -- 4716666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0420)
+						return true
+							end
+	elseif num_calls == 4725000 -- day4_Night_4:30AM -- 4725000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0430)
+						return true
+							end
+	elseif num_calls == 4733333 -- day4_Night_4:40AM -- 4733333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0440)
+						return true
+							end
+	elseif num_calls == 4741666 -- day4_Night_4:50AM -- 4741666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0450)
+						return true
+							end
+	elseif num_calls == 4750000 -- day4_Night_5:00AM -- 4750000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0500)
+						return true
+							end
+	elseif num_calls == 4758333 -- day4_Night_5:10AM -- 4758333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0510)
+						return true
+							end
+	elseif num_calls == 4766666 -- day4_Night_5:20AM -- 4766666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0520)
+						return true
+							end
+	elseif num_calls == 4775000 -- day4_Night_5:30AM -- 4775000
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0530)
+						return true
+							end
+	elseif num_calls == 4783333 -- day4_Night_5:40AM -- 4783333.3333333333
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0540)
+						return true
+							end
+	elseif num_calls == 4791666 -- day4_Night_5:50AM -- 4791666.6666666666
+		then function map:on_draw(dst_surface)
+					self.day4_Night_overlay:draw(dst_surface)
+					game:set_value("time", day4_0550)
+						return true
+							end

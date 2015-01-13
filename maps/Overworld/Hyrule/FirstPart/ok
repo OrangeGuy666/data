@@ -1,0 +1,19 @@
+local map = ...
+local game = map:get_game()
+
+
+function map:on_started()
+self.day1_dawn_overlay = sol.surface.create()
+self.day1_dawn_overlay:fill_color({255, 128, 0})
+self.day1_dawn_overlay:set_opacity(96)
+self.day1_night_overlay = sol.surface.create()
+self.day1_night_overlay:fill_color({0, 0, 64})
+self.day1_night_overlay:set_opacity(96)
+
+	if num_calls ~= 8333 then
+		function map:on_draw(dst_surface)
+			self.day1_dawn_overlay:draw(dst_surface)
+		end
+      sol.audio.play_sound("boss_killed")
+	end
+end

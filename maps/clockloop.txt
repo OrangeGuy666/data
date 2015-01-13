@@ -1,0 +1,50 @@
+function map:on_started()
+local num_calls = 0
+    sol.timer.start(game, 1000, function()
+      sol.audio.play_sound("timer")
+	    num_calls = num_calls + 1
+	if num_calls == 5
+		then sol.audio.play_sound("boss_killed")
+	        return true
+	elseif num_calls == 10
+	    then sol.audio.play_sound("chest_appears")
+	        return true
+	elseif num_calls == 15
+	    then num_calls = 0
+	        return true
+    end
+            return true
+    end)
+end
+
+
+
+
+
+
+
+
+
+local num_calls = -1
+    sol.timer.start(game, 1000, function()
+      sol.audio.play_sound("timer")
+	    num_calls = num_calls + 1
+	if num_calls == 0 -- Dawn
+		then sol.audio.play_sound("cursor")
+	        return true
+	elseif num_calls == 5 -- Day
+	    then sol.audio.play_sound("chest_appears")
+	        return true
+	elseif num_calls == 10 -- Dusk
+	    then sol.audio.play_sound("bow")
+	        return true
+	elseif num_calls == 15 -- Night
+	    then sol.audio.play_sound("ok")
+	        return true
+	elseif num_calls == 18 -- 2 tick delay?
+	    then num_calls = -2 -- Resets the day
+	        return true
+    end
+            return true
+    end)
+end

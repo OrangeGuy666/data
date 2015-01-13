@@ -1,0 +1,6 @@
+quest{
+  solarus_version = "1.3",
+  write_dir = "alttp-enhanced",
+  title_bar = "The Legend of Zelda: A Link to the Past - Enhanced",
+  normal_quest_size = "320x180", -- 16x9
+}

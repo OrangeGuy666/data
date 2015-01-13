@@ -1,0 +1,45 @@
+function map:on_started()
+
+local num_calls = -1
+    sol.timer.start(game, 1000, function()
+      sol.audio.play_sound("timer")
+	    num_calls = num_calls + 1
+	if num_calls == 0 -- Dawn
+		then self.dawn_overlay = sol.surface.create()
+			self.dawn_overlay:fill_color({255, 0, 0})
+			self.dawn_overlay:set_opacity(192)
+				function map:on_draw(dst_surface)
+					self.dawn_overlay:draw(dst_surface)
+						return true
+							end
+	elseif num_calls == 5 -- Day
+		then self.day_overlay = sol.surface.create()
+			self.day_overlay:fill_color({0, 255, 0})
+			self.day_overlay:set_opacity(192)
+				function map:on_draw(dst_surface)
+					self.day_overlay:draw(dst_surface)
+						return true
+							end
+	elseif num_calls == 10 -- Dusk
+		then self.dusk_overlay = sol.surface.create()
+			self.dusk_overlay:fill_color({0, 0, 255})
+			self.dusk_overlay:set_opacity(192)
+				function map:on_draw(dst_surface)
+					self.dusk_overlay:draw(dst_surface)
+						return true
+							end
+	elseif num_calls == 15 -- Night
+		then self.night_overlay = sol.surface.create()
+			self.night_overlay:fill_color({255, 0, 255})
+			self.night_overlay:set_opacity(192)
+				function map:on_draw(dst_surface)
+					self.night_overlay:draw(dst_surface)
+						return true
+							end
+	elseif num_calls == 18 -- 2 tick delay?
+	    then num_calls = -2 -- Resets the day
+	        return true
+    end
+            return true
+    end)
+end

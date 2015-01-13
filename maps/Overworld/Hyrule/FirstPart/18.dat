@@ -1,0 +1,39 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 1024,
+  height = 1024,
+  tileset = "light_world",
+  music = "Town",
+}
+
+custom_entity{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "temp/18",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 512,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Overworld/Hyrule/FirstPart/10",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 512,
+  y = -16,
+  width = 512,
+  height = 16,
+  destination_map = "Overworld/Hyrule/FirstPart/18",
+}
+

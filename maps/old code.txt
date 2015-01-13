@@ -1,0 +1,98 @@
+
+--[[
+  self.dawn_overlay = sol.surface.create()
+  self.dawn_overlay:set_opacity(192)
+  self.dawn_overlay:fill_color({255, 0, 0})
+
+  self.day_overlay = sol.surface.create()
+  self.day_overlay:set_opacity(192)
+  self.day_overlay:fill_color({255, 255, 255})
+  
+  self.dusk_overlay = sol.surface.create()
+  self.dusk_overlay:set_opacity(192)
+  self.dusk_overlay:fill_color({0, 255, 0})
+  
+  self.night_overlay = sol.surface.create()
+  self.night_overlay:set_opacity(192)
+  self.night_overlay:fill_color({0, 0, 255})
+--]]
+
+
+--[[ WORKS!
+local num_calls = -1
+    sol.timer.start(game, 1000, function()
+      sol.audio.play_sound("timer")
+	    num_calls = num_calls + 1
+	if num_calls == 0 -- Dawn
+		then sol.audio.play_sound("cursor")
+	        return true
+	elseif num_calls == 5 -- Day
+	    then sol.audio.play_sound("chest_appears")
+	        return true
+	elseif num_calls == 10 -- Dusk
+	    then sol.audio.play_sound("bow")
+	        return true
+	elseif num_calls == 15 -- Night
+	    then sol.audio.play_sound("ok")
+	        return true
+	elseif num_calls == 18 -- 2 tick delay?
+	    then num_calls = -2 -- Resets the day
+	        return true
+    end
+            return true
+    end)
+end
+--]]
+
+
+
+
+
+
+
+
+--[[
+function 
+	if num_calls == 0 -- Dawn
+		
+		return true
+	elseif num_calls == 5 -- Day
+	    then 
+		return true
+	elseif num_calls == 10 -- Dusk
+	    then 
+		return true
+	elseif num_calls == 15 -- Night
+	    
+		return true
+	end
+end
+
+--]]
+
+
+--[[
+local num_calls = 0
+    sol.timer.start(game, 1000, function()
+      sol.audio.play_sound("timer")
+	    num_calls = num_calls + 1
+	if num_calls == 5 -- Dawn
+		then sol.audio.play_sound("boss_killed")
+	        return true
+	elseif num_calls == 10 -- Day
+	    then sol.audio.play_sound("chest_appears")
+	        return true
+	elseif num_calls == 15 -- Dusk
+	    then sol.audio.play_sound("chest_appears")
+	        return true
+	elseif num_calls == 20 -- Night
+	    then sol.audio.play_sound("chest_appears")
+	        return true
+	elseif num_calls == 25
+	    then num_calls = 0 -- Resets the day
+	        return true
+    end
+            return true
+    end)
+end
+--]]

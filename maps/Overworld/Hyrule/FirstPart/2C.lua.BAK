@@ -1,0 +1,296 @@
+local map = ...
+local game = map:get_game()
+
+
+function map:on_started()
+
+-- Define colors for Day/Night cycle - Day1 -------- Needs adjustments
+self.day1_dawn_overlay = sol.surface.create()
+self.day1_dawn_overlay:fill_color({255, 128, 0})
+self.day1_dawn_overlay:set_opacity(96)
+
+self.day1_day_overlay = sol.surface.create()
+self.day1_day_overlay:fill_color({0, 0, 0})
+self.day1_day_overlay:set_opacity(0)
+
+self.day1_dusk_overlay = sol.surface.create()
+self.day1_dusk_overlay:fill_color({255, 128, 0})
+self.day1_dusk_overlay:set_opacity(96)
+
+self.day1_night_overlay = sol.surface.create()
+self.day1_night_overlay:fill_color({0, 0, 64})
+self.day1_night_overlay:set_opacity(96)
+-- End of colors for Day/Night cycle - Day1
+
+-- Define colors for Day/Night cycle - Day2 -------- Needs adjustments
+self.day2_dawn_overlay = sol.surface.create()
+self.day2_dawn_overlay:fill_color({255, 0, 0})
+self.day2_dawn_overlay:set_opacity(96)
+
+self.day2_day_overlay = sol.surface.create()
+self.day2_day_overlay:fill_color({0, 0, 0})
+self.day2_day_overlay:set_opacity(0)
+
+self.day2_dusk_overlay = sol.surface.create()
+self.day2_dusk_overlay:fill_color({0, 255, 0})
+self.day2_dusk_overlay:set_opacity(96)
+
+self.day2_night_overlay = sol.surface.create()
+self.day2_night_overlay:fill_color({0, 0, 64})
+self.day2_night_overlay:set_opacity(96)
+-- End of colors for Day/Night cycle - Day2
+
+-- Define colors for Day/Night cycle - Day3 -------- Needs adjustments
+self.day3_dawn_overlay = sol.surface.create()
+self.day3_dawn_overlay:fill_color({0, 255, 255})
+self.day3_dawn_overlay:set_opacity(96)
+
+self.day3_day_overlay = sol.surface.create()
+self.day3_day_overlay:fill_color({0, 0, 0})
+self.day3_day_overlay:set_opacity(0)
+
+self.day3_dusk_overlay = sol.surface.create()
+self.day3_dusk_overlay:fill_color({255, 255, 0})
+self.day3_dusk_overlay:set_opacity(96)
+
+self.day3_night_overlay = sol.surface.create()
+self.day3_night_overlay:fill_color({0, 0, 64})
+self.day3_night_overlay:set_opacity(96)
+-- End of colors for Day/Night cycle - Day3
+
+-- Define colors for Day/Night cycle - Day4 -------- Needs adjustments
+self.day4_dawn_overlay = sol.surface.create()
+self.day4_dawn_overlay:fill_color({255, 128, 0})
+self.day4_dawn_overlay:set_opacity(96)
+
+self.day4_day_overlay = sol.surface.create()
+self.day4_day_overlay:fill_color({0, 0, 0})
+self.day4_day_overlay:set_opacity(0)
+
+self.day4_dusk_overlay = sol.surface.create()
+self.day4_dusk_overlay:fill_color({255, 128, 0})
+self.day4_dusk_overlay:set_opacity(96)
+
+self.day4_night_overlay = sol.surface.create()
+self.day4_night_overlay:fill_color({0, 0, 64})
+self.day4_night_overlay:set_opacity(96)
+-- End of colors for Day/Night cycle - Day4
+
+-- Define level transition colours.
+-- Day 1 start
+	if num_calls > 0 and num_calls < 8333 then
+		function map:on_draw(dst_surface)
+			self.day1_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 8333 and num_calls < 16666 then
+		function map:on_draw(dst_surface)
+			self.day1_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 16666 and num_calls < 25000 then
+		function map:on_draw(dst_surface)
+			self.day1_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 25000 and num_calls < 33333 then
+		function map:on_draw(dst_surface)
+			self.day1_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 33333 and num_calls < 41666 then
+		function map:on_draw(dst_surface)
+			self.day1_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 41666 and num_calls < 50000 then
+		function map:on_draw(dst_surface)
+			self.day1_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 50000 and num_calls < 58333 then
+		function map:on_draw(dst_surface)
+			self.day1_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 58333 and num_calls < 66666 then
+		function map:on_draw(dst_surface)
+			self.day1_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 66666 and num_calls < 75000 then
+		function map:on_draw(dst_surface)
+			self.day1_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 75000 and num_calls < 83333 then
+		function map:on_draw(dst_surface)
+			self.day1_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 83333 and num_calls < 91666 then
+		function map:on_draw(dst_surface)
+			self.day1_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 91666 and num_calls < 100000 then
+		function map:on_draw(dst_surface)
+			self.day1_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 100000 and num_calls < 600000 then
+		function map:on_draw(dst_surface)
+			self.day1_day_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 600000 and num_calls < 608333 then
+		function map:on_draw(dst_surface)
+			self.day1_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 608333 and num_calls < 616666 then
+		function map:on_draw(dst_surface)
+			self.day1_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 616666 and num_calls < 625000 then
+		function map:on_draw(dst_surface)
+			self.day1_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 625000 and num_calls < 633333 then
+		function map:on_draw(dst_surface)
+			self.day1_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 633333 and num_calls < 641666 then
+		function map:on_draw(dst_surface)
+			self.day1_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 641666 and num_calls < 650000 then
+		function map:on_draw(dst_surface)
+			self.day1_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 650000 and num_calls < 658333 then
+		function map:on_draw(dst_surface)
+			self.day1_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 658333 and num_calls < 666666 then
+		function map:on_draw(dst_surface)
+			self.day1_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 666666 and num_calls < 675000 then
+		function map:on_draw(dst_surface)
+			self.day1_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 675000 and num_calls < 683333 then
+		function map:on_draw(dst_surface)
+			self.day1_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 683333 and num_calls < 691666 then
+		function map:on_draw(dst_surface)
+			self.day1_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 691666 and num_calls < 700000 then
+		function map:on_draw(dst_surface)
+			self.day1_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 700000 and num_calls < 1200000 then
+		function map:on_draw(dst_surface)
+			self.day1_night_overlay:draw(dst_surface)
+		end
+-- Day 1 over
+-- Day 2 start
+	elseif num_calls > 1200000 and num_calls < 1208333 then
+		function map:on_draw(dst_surface)
+			self.day2_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 1208333 and num_calls < 1216666 then
+		function map:on_draw(dst_surface)
+			self.day2_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 1216666 and num_calls < 1225000 then
+		function map:on_draw(dst_surface)
+			self.day2_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 1225000 and num_calls < 1233333 then
+		function map:on_draw(dst_surface)
+			self.day2_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 1233333 and num_calls < 1241666 then
+		function map:on_draw(dst_surface)
+			self.day2_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 1241666 and num_calls < 1250000 then
+		function map:on_draw(dst_surface)
+			self.day2_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 1250000 and num_calls < 1258333 then
+		function map:on_draw(dst_surface)
+			self.day2_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 1258333 and num_calls < 1266666 then
+		function map:on_draw(dst_surface)
+			self.day2_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 1266666 and num_calls < 1275000 then
+		function map:on_draw(dst_surface)
+			self.day2_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 1275000 and num_calls < 1283333 then
+		function map:on_draw(dst_surface)
+			self.day2_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 1283333 and num_calls < 1291666 then
+		function map:on_draw(dst_surface)
+			self.day2_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 1291666 and num_calls < 1300000 then
+		function map:on_draw(dst_surface)
+			self.day2_dawn_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 1300000 and num_calls < 1800000 then
+		function map:on_draw(dst_surface)
+			self.day2_day_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 1800000 and num_calls < 608333 then
+		function map:on_draw(dst_surface)
+			self.day2_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 608333 and num_calls < 616666 then
+		function map:on_draw(dst_surface)
+			self.day2_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 616666 and num_calls < 625000 then
+		function map:on_draw(dst_surface)
+			self.day2_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 625000 and num_calls < 633333 then
+		function map:on_draw(dst_surface)
+			self.day2_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 633333 and num_calls < 641666 then
+		function map:on_draw(dst_surface)
+			self.day2_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 641666 and num_calls < 650000 then
+		function map:on_draw(dst_surface)
+			self.day2_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 650000 and num_calls < 658333 then
+		function map:on_draw(dst_surface)
+			self.day2_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 658333 and num_calls < 666666 then
+		function map:on_draw(dst_surface)
+			self.day2_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 666666 and num_calls < 675000 then
+		function map:on_draw(dst_surface)
+			self.day2_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 675000 and num_calls < 683333 then
+		function map:on_draw(dst_surface)
+			self.day2_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 683333 and num_calls < 691666 then
+		function map:on_draw(dst_surface)
+			self.day2_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 691666 and num_calls < 700000 then
+		function map:on_draw(dst_surface)
+			self.day2_dusk_overlay:draw(dst_surface)
+		end
+	elseif num_calls > 700000 and num_calls < 1191666 then
+		function map:on_draw(dst_surface)
+			self.day2_night_overlay:draw(dst_surface)
+		end
+-- Day 2 over
+	return true
+	end
+-- End level transition colours.
+
+	end

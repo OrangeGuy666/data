@@ -1,0 +1,479 @@
+self.day1_dawn001_overlay = sol.surface.create()
+self.day1_dawn001_overlay:fill_color({0, 0, 0})
+self.day1_dawn001_overlay:set_opacity(255)
+
+self.day1_dawn002_overlay = sol.surface.create()
+self.day1_dawn002_overlay:fill_color({0, 0, 0})
+self.day1_dawn002_overlay:set_opacity(255)
+
+self.day1_dawn003_overlay = sol.surface.create()
+self.day1_dawn003_overlay:fill_color({0, 0, 0})
+self.day1_dawn003_overlay:set_opacity(255)
+
+self.day1_dawn004_overlay = sol.surface.create()
+self.day1_dawn004_overlay:fill_color({0, 0, 0})
+self.day1_dawn004_overlay:set_opacity(255)
+
+self.day1_dawn005_overlay = sol.surface.create()
+self.day1_dawn005_overlay:fill_color({0, 0, 0})
+self.day1_dawn005_overlay:set_opacity(255)
+
+self.day1_dawn006_overlay = sol.surface.create()
+self.day1_dawn006_overlay:fill_color({0, 0, 0})
+self.day1_dawn006_overlay:set_opacity(255)
+
+self.day1_dawn007_overlay = sol.surface.create()
+self.day1_dawn007_overlay:fill_color({0, 0, 0})
+self.day1_dawn007_overlay:set_opacity(255)
+
+self.day1_dawn008_overlay = sol.surface.create()
+self.day1_dawn008_overlay:fill_color({0, 0, 0})
+self.day1_dawn008_overlay:set_opacity(255)
+
+self.day1_dawn009_overlay = sol.surface.create()
+self.day1_dawn009_overlay:fill_color({0, 0, 0})
+self.day1_dawn009_overlay:set_opacity(255)
+
+self.day1_dawn010_overlay = sol.surface.create()
+self.day1_dawn010_overlay:fill_color({0, 0, 0})
+self.day1_dawn010_overlay:set_opacity(255)
+
+self.day1_dawn011_overlay = sol.surface.create()
+self.day1_dawn011_overlay:fill_color({0, 0, 0})
+self.day1_dawn011_overlay:set_opacity(255)
+
+self.day1_dawn012_overlay = sol.surface.create()
+self.day1_dawn012_overlay:fill_color({0, 0, 0})
+self.day1_dawn012_overlay:set_opacity(255)
+
+self.day1_dawn013_overlay = sol.surface.create()
+self.day1_dawn013_overlay:fill_color({0, 0, 0})
+self.day1_dawn013_overlay:set_opacity(255)
+
+self.day1_dawn014_overlay = sol.surface.create()
+self.day1_dawn014_overlay:fill_color({0, 0, 0})
+self.day1_dawn014_overlay:set_opacity(255)
+
+self.day1_dawn015_overlay = sol.surface.create()
+self.day1_dawn015_overlay:fill_color({0, 0, 0})
+self.day1_dawn015_overlay:set_opacity(255)
+
+self.day1_dawn016_overlay = sol.surface.create()
+self.day1_dawn016_overlay:fill_color({0, 0, 0})
+self.day1_dawn016_overlay:set_opacity(255)
+
+self.day1_dawn017_overlay = sol.surface.create()
+self.day1_dawn017_overlay:fill_color({0, 0, 0})
+self.day1_dawn017_overlay:set_opacity(255)
+
+self.day1_dawn018_overlay = sol.surface.create()
+self.day1_dawn018_overlay:fill_color({0, 0, 0})
+self.day1_dawn018_overlay:set_opacity(255)
+
+self.day1_dawn019_overlay = sol.surface.create()
+self.day1_dawn019_overlay:fill_color({0, 0, 0})
+self.day1_dawn019_overlay:set_opacity(255)
+
+self.day1_dawn020_overlay = sol.surface.create()
+self.day1_dawn020_overlay:fill_color({0, 0, 0})
+self.day1_dawn020_overlay:set_opacity(255)
+
+self.day1_dawn021_overlay = sol.surface.create()
+self.day1_dawn021_overlay:fill_color({0, 0, 0})
+self.day1_dawn021_overlay:set_opacity(255)
+
+self.day1_dawn022_overlay = sol.surface.create()
+self.day1_dawn022_overlay:fill_color({0, 0, 0})
+self.day1_dawn022_overlay:set_opacity(255)
+
+self.day1_dawn023_overlay = sol.surface.create()
+self.day1_dawn023_overlay:fill_color({0, 0, 0})
+self.day1_dawn023_overlay:set_opacity(255)
+
+self.day1_dawn024_overlay = sol.surface.create()
+self.day1_dawn024_overlay:fill_color({0, 0, 0})
+self.day1_dawn024_overlay:set_opacity(255)
+
+self.day1_dawn025_overlay = sol.surface.create()
+self.day1_dawn025_overlay:fill_color({0, 0, 0})
+self.day1_dawn025_overlay:set_opacity(255)
+
+self.day1_dawn026_overlay = sol.surface.create()
+self.day1_dawn026_overlay:fill_color({0, 0, 0})
+self.day1_dawn026_overlay:set_opacity(255)
+
+self.day1_dawn027_overlay = sol.surface.create()
+self.day1_dawn027_overlay:fill_color({0, 0, 0})
+self.day1_dawn027_overlay:set_opacity(255)
+
+self.day1_dawn028_overlay = sol.surface.create()
+self.day1_dawn028_overlay:fill_color({0, 0, 0})
+self.day1_dawn028_overlay:set_opacity(255)
+
+self.day1_dawn029_overlay = sol.surface.create()
+self.day1_dawn029_overlay:fill_color({0, 0, 0})
+self.day1_dawn029_overlay:set_opacity(255)
+
+self.day1_dawn030_overlay = sol.surface.create()
+self.day1_dawn030_overlay:fill_color({0, 0, 0})
+self.day1_dawn030_overlay:set_opacity(255)
+
+self.day1_dawn031_overlay = sol.surface.create()
+self.day1_dawn031_overlay:fill_color({0, 0, 0})
+self.day1_dawn031_overlay:set_opacity(255)
+
+self.day1_dawn032_overlay = sol.surface.create()
+self.day1_dawn032_overlay:fill_color({0, 0, 0})
+self.day1_dawn032_overlay:set_opacity(255)
+
+self.day1_dawn033_overlay = sol.surface.create()
+self.day1_dawn033_overlay:fill_color({0, 0, 0})
+self.day1_dawn033_overlay:set_opacity(255)
+
+self.day1_dawn034_overlay = sol.surface.create()
+self.day1_dawn034_overlay:fill_color({0, 0, 0})
+self.day1_dawn034_overlay:set_opacity(255)
+
+self.day1_dawn035_overlay = sol.surface.create()
+self.day1_dawn035_overlay:fill_color({0, 0, 0})
+self.day1_dawn035_overlay:set_opacity(255)
+
+self.day1_dawn036_overlay = sol.surface.create()
+self.day1_dawn036_overlay:fill_color({0, 0, 0})
+self.day1_dawn036_overlay:set_opacity(255)
+
+self.day1_dawn037_overlay = sol.surface.create()
+self.day1_dawn037_overlay:fill_color({0, 0, 0})
+self.day1_dawn037_overlay:set_opacity(255)
+
+self.day1_dawn038_overlay = sol.surface.create()
+self.day1_dawn038_overlay:fill_color({0, 0, 0})
+self.day1_dawn038_overlay:set_opacity(255)
+
+self.day1_dawn039_overlay = sol.surface.create()
+self.day1_dawn039_overlay:fill_color({0, 0, 0})
+self.day1_dawn039_overlay:set_opacity(255)
+
+self.day1_dawn040_overlay = sol.surface.create()
+self.day1_dawn040_overlay:fill_color({0, 0, 0})
+self.day1_dawn040_overlay:set_opacity(255)
+
+self.day1_dawn041_overlay = sol.surface.create()
+self.day1_dawn041_overlay:fill_color({0, 0, 0})
+self.day1_dawn041_overlay:set_opacity(255)
+
+self.day1_dawn042_overlay = sol.surface.create()
+self.day1_dawn042_overlay:fill_color({0, 0, 0})
+self.day1_dawn042_overlay:set_opacity(255)
+
+self.day1_dawn043_overlay = sol.surface.create()
+self.day1_dawn043_overlay:fill_color({0, 0, 0})
+self.day1_dawn043_overlay:set_opacity(255)
+
+self.day1_dawn044_overlay = sol.surface.create()
+self.day1_dawn044_overlay:fill_color({0, 0, 0})
+self.day1_dawn044_overlay:set_opacity(255)
+
+self.day1_dawn045_overlay = sol.surface.create()
+self.day1_dawn045_overlay:fill_color({0, 0, 0})
+self.day1_dawn045_overlay:set_opacity(255)
+
+self.day1_dawn046_overlay = sol.surface.create()
+self.day1_dawn046_overlay:fill_color({0, 0, 0})
+self.day1_dawn046_overlay:set_opacity(255)
+
+self.day1_dawn047_overlay = sol.surface.create()
+self.day1_dawn047_overlay:fill_color({0, 0, 0})
+self.day1_dawn047_overlay:set_opacity(255)
+
+self.day1_dawn048_overlay = sol.surface.create()
+self.day1_dawn048_overlay:fill_color({0, 0, 0})
+self.day1_dawn048_overlay:set_opacity(255)
+
+self.day1_dawn049_overlay = sol.surface.create()
+self.day1_dawn049_overlay:fill_color({0, 0, 0})
+self.day1_dawn049_overlay:set_opacity(255)
+
+self.day1_dawn050_overlay = sol.surface.create()
+self.day1_dawn050_overlay:fill_color({0, 0, 0})
+self.day1_dawn050_overlay:set_opacity(255)
+
+self.day1_dawn051_overlay = sol.surface.create()
+self.day1_dawn051_overlay:fill_color({0, 0, 0})
+self.day1_dawn051_overlay:set_opacity(255)
+
+self.day1_dawn052_overlay = sol.surface.create()
+self.day1_dawn052_overlay:fill_color({0, 0, 0})
+self.day1_dawn052_overlay:set_opacity(255)
+
+self.day1_dawn053_overlay = sol.surface.create()
+self.day1_dawn053_overlay:fill_color({0, 0, 0})
+self.day1_dawn053_overlay:set_opacity(255)
+
+self.day1_dawn054_overlay = sol.surface.create()
+self.day1_dawn054_overlay:fill_color({0, 0, 0})
+self.day1_dawn054_overlay:set_opacity(255)
+
+self.day1_dawn055_overlay = sol.surface.create()
+self.day1_dawn055_overlay:fill_color({0, 0, 0})
+self.day1_dawn055_overlay:set_opacity(255)
+
+self.day1_dawn056_overlay = sol.surface.create()
+self.day1_dawn056_overlay:fill_color({0, 0, 0})
+self.day1_dawn056_overlay:set_opacity(255)
+
+self.day1_dawn057_overlay = sol.surface.create()
+self.day1_dawn057_overlay:fill_color({0, 0, 0})
+self.day1_dawn057_overlay:set_opacity(255)
+
+self.day1_dawn058_overlay = sol.surface.create()
+self.day1_dawn058_overlay:fill_color({0, 0, 0})
+self.day1_dawn058_overlay:set_opacity(255)
+
+self.day1_dawn059_overlay = sol.surface.create()
+self.day1_dawn059_overlay:fill_color({0, 0, 0})
+self.day1_dawn059_overlay:set_opacity(255)
+
+self.day1_dawn060_overlay = sol.surface.create()
+self.day1_dawn060_overlay:fill_color({0, 0, 0})
+self.day1_dawn060_overlay:set_opacity(255)
+
+self.day1_dawn061_overlay = sol.surface.create()
+self.day1_dawn061_overlay:fill_color({0, 0, 0})
+self.day1_dawn061_overlay:set_opacity(255)
+
+self.day1_dawn062_overlay = sol.surface.create()
+self.day1_dawn062_overlay:fill_color({0, 0, 0})
+self.day1_dawn062_overlay:set_opacity(255)
+
+self.day1_dawn063_overlay = sol.surface.create()
+self.day1_dawn063_overlay:fill_color({0, 0, 0})
+self.day1_dawn063_overlay:set_opacity(255)
+
+self.day1_dawn064_overlay = sol.surface.create()
+self.day1_dawn064_overlay:fill_color({0, 0, 0})
+self.day1_dawn064_overlay:set_opacity(255)
+
+self.day1_dawn065_overlay = sol.surface.create()
+self.day1_dawn065_overlay:fill_color({0, 0, 0})
+self.day1_dawn065_overlay:set_opacity(255)
+
+self.day1_dawn066_overlay = sol.surface.create()
+self.day1_dawn066_overlay:fill_color({0, 0, 0})
+self.day1_dawn066_overlay:set_opacity(255)
+
+self.day1_dawn067_overlay = sol.surface.create()
+self.day1_dawn067_overlay:fill_color({0, 0, 0})
+self.day1_dawn067_overlay:set_opacity(255)
+
+self.day1_dawn068_overlay = sol.surface.create()
+self.day1_dawn068_overlay:fill_color({0, 0, 0})
+self.day1_dawn068_overlay:set_opacity(255)
+
+self.day1_dawn069_overlay = sol.surface.create()
+self.day1_dawn069_overlay:fill_color({0, 0, 0})
+self.day1_dawn069_overlay:set_opacity(255)
+
+self.day1_dawn070_overlay = sol.surface.create()
+self.day1_dawn070_overlay:fill_color({0, 0, 0})
+self.day1_dawn070_overlay:set_opacity(255)
+
+self.day1_dawn071_overlay = sol.surface.create()
+self.day1_dawn071_overlay:fill_color({0, 0, 0})
+self.day1_dawn071_overlay:set_opacity(255)
+
+self.day1_dawn072_overlay = sol.surface.create()
+self.day1_dawn072_overlay:fill_color({0, 0, 0})
+self.day1_dawn072_overlay:set_opacity(255)
+
+self.day1_dawn073_overlay = sol.surface.create()
+self.day1_dawn073_overlay:fill_color({0, 0, 0})
+self.day1_dawn073_overlay:set_opacity(255)
+
+self.day1_dawn074_overlay = sol.surface.create()
+self.day1_dawn074_overlay:fill_color({0, 0, 0})
+self.day1_dawn074_overlay:set_opacity(255)
+
+self.day1_dawn075_overlay = sol.surface.create()
+self.day1_dawn075_overlay:fill_color({0, 0, 0})
+self.day1_dawn075_overlay:set_opacity(255)
+
+self.day1_dawn076_overlay = sol.surface.create()
+self.day1_dawn076_overlay:fill_color({0, 0, 0})
+self.day1_dawn076_overlay:set_opacity(255)
+
+self.day1_dawn077_overlay = sol.surface.create()
+self.day1_dawn077_overlay:fill_color({0, 0, 0})
+self.day1_dawn077_overlay:set_opacity(255)
+
+self.day1_dawn078_overlay = sol.surface.create()
+self.day1_dawn078_overlay:fill_color({0, 0, 0})
+self.day1_dawn078_overlay:set_opacity(255)
+
+self.day1_dawn079_overlay = sol.surface.create()
+self.day1_dawn079_overlay:fill_color({0, 0, 0})
+self.day1_dawn079_overlay:set_opacity(255)
+
+self.day1_dawn080_overlay = sol.surface.create()
+self.day1_dawn080_overlay:fill_color({0, 0, 0})
+self.day1_dawn080_overlay:set_opacity(255)
+
+self.day1_dawn081_overlay = sol.surface.create()
+self.day1_dawn081_overlay:fill_color({0, 0, 0})
+self.day1_dawn081_overlay:set_opacity(255)
+
+self.day1_dawn082_overlay = sol.surface.create()
+self.day1_dawn082_overlay:fill_color({0, 0, 0})
+self.day1_dawn082_overlay:set_opacity(255)
+
+self.day1_dawn083_overlay = sol.surface.create()
+self.day1_dawn083_overlay:fill_color({0, 0, 0})
+self.day1_dawn083_overlay:set_opacity(255)
+
+self.day1_dawn084_overlay = sol.surface.create()
+self.day1_dawn084_overlay:fill_color({0, 0, 0})
+self.day1_dawn084_overlay:set_opacity(255)
+
+self.day1_dawn085_overlay = sol.surface.create()
+self.day1_dawn085_overlay:fill_color({0, 0, 0})
+self.day1_dawn085_overlay:set_opacity(255)
+
+self.day1_dawn086_overlay = sol.surface.create()
+self.day1_dawn086_overlay:fill_color({0, 0, 0})
+self.day1_dawn086_overlay:set_opacity(255)
+
+self.day1_dawn087_overlay = sol.surface.create()
+self.day1_dawn087_overlay:fill_color({0, 0, 0})
+self.day1_dawn087_overlay:set_opacity(255)
+
+self.day1_dawn088_overlay = sol.surface.create()
+self.day1_dawn088_overlay:fill_color({0, 0, 0})
+self.day1_dawn088_overlay:set_opacity(255)
+
+self.day1_dawn089_overlay = sol.surface.create()
+self.day1_dawn089_overlay:fill_color({0, 0, 0})
+self.day1_dawn089_overlay:set_opacity(255)
+
+self.day1_dawn090_overlay = sol.surface.create()
+self.day1_dawn090_overlay:fill_color({0, 0, 0})
+self.day1_dawn090_overlay:set_opacity(255)
+
+self.day1_dawn091_overlay = sol.surface.create()
+self.day1_dawn091_overlay:fill_color({0, 0, 0})
+self.day1_dawn091_overlay:set_opacity(255)
+
+self.day1_dawn092_overlay = sol.surface.create()
+self.day1_dawn092_overlay:fill_color({0, 0, 0})
+self.day1_dawn092_overlay:set_opacity(255)
+
+self.day1_dawn093_overlay = sol.surface.create()
+self.day1_dawn093_overlay:fill_color({0, 0, 0})
+self.day1_dawn093_overlay:set_opacity(255)
+
+self.day1_dawn094_overlay = sol.surface.create()
+self.day1_dawn094_overlay:fill_color({0, 0, 0})
+self.day1_dawn094_overlay:set_opacity(255)
+
+self.day1_dawn095_overlay = sol.surface.create()
+self.day1_dawn095_overlay:fill_color({0, 0, 0})
+self.day1_dawn095_overlay:set_opacity(255)
+
+self.day1_dawn096_overlay = sol.surface.create()
+self.day1_dawn096_overlay:fill_color({0, 0, 0})
+self.day1_dawn096_overlay:set_opacity(255)
+
+self.day1_dawn097_overlay = sol.surface.create()
+self.day1_dawn097_overlay:fill_color({0, 0, 0})
+self.day1_dawn097_overlay:set_opacity(255)
+
+self.day1_dawn098_overlay = sol.surface.create()
+self.day1_dawn098_overlay:fill_color({0, 0, 0})
+self.day1_dawn098_overlay:set_opacity(255)
+
+self.day1_dawn099_overlay = sol.surface.create()
+self.day1_dawn099_overlay:fill_color({0, 0, 0})
+self.day1_dawn099_overlay:set_opacity(255)
+
+self.day1_dawn100_overlay = sol.surface.create()
+self.day1_dawn100_overlay:fill_color({0, 0, 0})
+self.day1_dawn100_overlay:set_opacity(255)
+
+self.day1_dawn101_overlay = sol.surface.create()
+self.day1_dawn101_overlay:fill_color({0, 0, 0})
+self.day1_dawn101_overlay:set_opacity(255)
+
+self.day1_dawn102_overlay = sol.surface.create()
+self.day1_dawn102_overlay:fill_color({0, 0, 0})
+self.day1_dawn102_overlay:set_opacity(255)
+
+self.day1_dawn103_overlay = sol.surface.create()
+self.day1_dawn103_overlay:fill_color({0, 0, 0})
+self.day1_dawn103_overlay:set_opacity(255)
+
+self.day1_dawn104_overlay = sol.surface.create()
+self.day1_dawn104_overlay:fill_color({0, 0, 0})
+self.day1_dawn104_overlay:set_opacity(255)
+
+self.day1_dawn105_overlay = sol.surface.create()
+self.day1_dawn105_overlay:fill_color({0, 0, 0})
+self.day1_dawn105_overlay:set_opacity(255)
+
+self.day1_dawn106_overlay = sol.surface.create()
+self.day1_dawn106_overlay:fill_color({0, 0, 0})
+self.day1_dawn106_overlay:set_opacity(255)
+
+self.day1_dawn107_overlay = sol.surface.create()
+self.day1_dawn107_overlay:fill_color({0, 0, 0})
+self.day1_dawn107_overlay:set_opacity(255)
+
+self.day1_dawn108_overlay = sol.surface.create()
+self.day1_dawn108_overlay:fill_color({0, 0, 0})
+self.day1_dawn108_overlay:set_opacity(255)
+
+self.day1_dawn109_overlay = sol.surface.create()
+self.day1_dawn109_overlay:fill_color({0, 0, 0})
+self.day1_dawn109_overlay:set_opacity(255)
+
+self.day1_dawn110_overlay = sol.surface.create()
+self.day1_dawn110_overlay:fill_color({0, 0, 0})
+self.day1_dawn110_overlay:set_opacity(255)
+
+self.day1_dawn111_overlay = sol.surface.create()
+self.day1_dawn111_overlay:fill_color({0, 0, 0})
+self.day1_dawn111_overlay:set_opacity(255)
+
+self.day1_dawn112_overlay = sol.surface.create()
+self.day1_dawn112_overlay:fill_color({0, 0, 0})
+self.day1_dawn112_overlay:set_opacity(255)
+
+self.day1_dawn113_overlay = sol.surface.create()
+self.day1_dawn113_overlay:fill_color({0, 0, 0})
+self.day1_dawn113_overlay:set_opacity(255)
+
+self.day1_dawn114_overlay = sol.surface.create()
+self.day1_dawn114_overlay:fill_color({0, 0, 0})
+self.day1_dawn114_overlay:set_opacity(255)
+
+self.day1_dawn115_overlay = sol.surface.create()
+self.day1_dawn115_overlay:fill_color({0, 0, 0})
+self.day1_dawn115_overlay:set_opacity(255)
+
+self.day1_dawn116_overlay = sol.surface.create()
+self.day1_dawn116_overlay:fill_color({0, 0, 0})
+self.day1_dawn116_overlay:set_opacity(255)
+
+self.day1_dawn117_overlay = sol.surface.create()
+self.day1_dawn117_overlay:fill_color({0, 0, 0})
+self.day1_dawn117_overlay:set_opacity(255)
+
+self.day1_dawn118_overlay = sol.surface.create()
+self.day1_dawn118_overlay:fill_color({0, 0, 0})
+self.day1_dawn118_overlay:set_opacity(255)
+
+self.day1_dawn119_overlay = sol.surface.create()
+self.day1_dawn119_overlay:fill_color({0, 0, 0})
+self.day1_dawn119_overlay:set_opacity(255)
+
+self.day1_dawn120_overlay = sol.surface.create()
+self.day1_dawn120_overlay:fill_color({0, 0, 0})
+self.day1_dawn120_overlay:set_opacity(255)
